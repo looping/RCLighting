@@ -1,0 +1,17 @@
+PODS:
+  - pop (1.0.6)
+  - RCLighting (0.1):
+    - pop
+
+DEPENDENCIES:
+  - RCLighting (from `../`)
+
+EXTERNAL SOURCES:
+  RCLighting:
+    :path: ../
+
+SPEC CHECKSUMS:
+  pop: e518794da38942c05255eb64b36d894e70cb4f00
+  RCLighting: cc788684765b8009317468a590a8a70fb0495ce4
+
+COCOAPODS: 0.33.1

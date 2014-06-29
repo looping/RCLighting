@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E5D0917195AA8D400A8BF70 /* avatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D0916195AA8D400A8BF70 /* avatar@2x.png */; };
+		6E6156021959548900EC7915 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6156011959548900EC7915 /* Foundation.framework */; };
+		6E6156041959548900EC7915 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6156031959548900EC7915 /* CoreGraphics.framework */; };
+		6E6156061959548900EC7915 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6156051959548900EC7915 /* UIKit.framework */; };
+		6E61560C1959548900EC7915 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E61560A1959548900EC7915 /* InfoPlist.strings */; };
+		6E61560E1959548900EC7915 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E61560D1959548900EC7915 /* main.m */; };
+		6E6156121959548900EC7915 /* RCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6156111959548900EC7915 /* RCAppDelegate.m */; };
+		6E6156151959548900EC7915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E6156131959548900EC7915 /* Main.storyboard */; };
+		6E6156181959548900EC7915 /* RCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6156171959548900EC7915 /* RCViewController.m */; };
+		6E61561A1959548900EC7915 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E6156191959548900EC7915 /* Images.xcassets */; };
+		6E6156211959548900EC7915 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6156201959548900EC7915 /* XCTest.framework */; };
+		6E6156221959548900EC7915 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6156011959548900EC7915 /* Foundation.framework */; };
+		6E6156231959548900EC7915 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6156051959548900EC7915 /* UIKit.framework */; };
+		6E61562B1959548900EC7915 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E6156291959548900EC7915 /* InfoPlist.strings */; };
+		6E61562D1959548900EC7915 /* RCLightingEffectExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E61562C1959548900EC7915 /* RCLightingEffectExampleTests.m */; };
+		FD90C44648DD443FB8969BA3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B6A93C858541DBA91E19F1 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E6156241959548900EC7915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E6155F61959548900EC7915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E6155FD1959548900EC7915;
+			remoteInfo = RCLightingEffectExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1666A72B3BB44F0ABF691100 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		6E5D0916195AA8D400A8BF70 /* avatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar@2x.png"; sourceTree = "<group>"; };
+		6E6155FE1959548900EC7915 /* RCLightingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCLightingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E6156011959548900EC7915 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6E6156031959548900EC7915 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6E6156051959548900EC7915 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6E6156091959548900EC7915 /* RCLightingExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RCLightingExample-Info.plist"; sourceTree = "<group>"; };
+		6E61560B1959548900EC7915 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E61560D1959548900EC7915 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E61560F1959548900EC7915 /* RCLightingExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RCLightingExample-Prefix.pch"; sourceTree = "<group>"; };
+		6E6156101959548900EC7915 /* RCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCAppDelegate.h; sourceTree = "<group>"; };
+		6E6156111959548900EC7915 /* RCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCAppDelegate.m; sourceTree = "<group>"; };
+		6E6156141959548900EC7915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E6156161959548900EC7915 /* RCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCViewController.h; sourceTree = "<group>"; };
+		6E6156171959548900EC7915 /* RCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCViewController.m; sourceTree = "<group>"; };
+		6E6156191959548900EC7915 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6E61561F1959548900EC7915 /* RCLightingExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCLightingExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E6156201959548900EC7915 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6E6156281959548900EC7915 /* RCLightingExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RCLightingExampleTests-Info.plist"; sourceTree = "<group>"; };
+		6E61562A1959548900EC7915 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E61562C1959548900EC7915 /* RCLightingEffectExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCLightingEffectExampleTests.m; sourceTree = "<group>"; };
+		C9B6A93C858541DBA91E19F1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E6155FB1959548900EC7915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E6156041959548900EC7915 /* CoreGraphics.framework in Frameworks */,
+				6E6156061959548900EC7915 /* UIKit.framework in Frameworks */,
+				6E6156021959548900EC7915 /* Foundation.framework in Frameworks */,
+				FD90C44648DD443FB8969BA3 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E61561C1959548900EC7915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E6156211959548900EC7915 /* XCTest.framework in Frameworks */,
+				6E6156231959548900EC7915 /* UIKit.framework in Frameworks */,
+				6E6156221959548900EC7915 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E6155F51959548900EC7915 = {
+			isa = PBXGroup;
+			children = (
+				6E6156071959548900EC7915 /* RCLightingExample */,
+				6E6156261959548900EC7915 /* RCLightingEffectExampleTests */,
+				6E6156001959548900EC7915 /* Frameworks */,
+				6E6155FF1959548900EC7915 /* Products */,
+				1666A72B3BB44F0ABF691100 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		6E6155FF1959548900EC7915 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E6155FE1959548900EC7915 /* RCLightingExample.app */,
+				6E61561F1959548900EC7915 /* RCLightingExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E6156001959548900EC7915 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E6156011959548900EC7915 /* Foundation.framework */,
+				6E6156031959548900EC7915 /* CoreGraphics.framework */,
+				6E6156051959548900EC7915 /* UIKit.framework */,
+				6E6156201959548900EC7915 /* XCTest.framework */,
+				C9B6A93C858541DBA91E19F1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E6156071959548900EC7915 /* RCLightingExample */ = {
+			isa = PBXGroup;
+			children = (
+				6E5D0916195AA8D400A8BF70 /* avatar@2x.png */,
+				6E6156101959548900EC7915 /* RCAppDelegate.h */,
+				6E6156111959548900EC7915 /* RCAppDelegate.m */,
+				6E6156131959548900EC7915 /* Main.storyboard */,
+				6E6156161959548900EC7915 /* RCViewController.h */,
+				6E6156171959548900EC7915 /* RCViewController.m */,
+				6E6156191959548900EC7915 /* Images.xcassets */,
+				6E6156081959548900EC7915 /* Supporting Files */,
+			);
+			path = RCLightingExample;
+			sourceTree = "<group>";
+		};
+		6E6156081959548900EC7915 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E6156091959548900EC7915 /* RCLightingExample-Info.plist */,
+				6E61560A1959548900EC7915 /* InfoPlist.strings */,
+				6E61560D1959548900EC7915 /* main.m */,
+				6E61560F1959548900EC7915 /* RCLightingExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E6156261959548900EC7915 /* RCLightingEffectExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E61562C1959548900EC7915 /* RCLightingEffectExampleTests.m */,
+				6E6156271959548900EC7915 /* Supporting Files */,
+			);
+			name = RCLightingEffectExampleTests;
+			path = RCLightingExampleTests;
+			sourceTree = "<group>";
+		};
+		6E6156271959548900EC7915 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E6156281959548900EC7915 /* RCLightingExampleTests-Info.plist */,
+				6E6156291959548900EC7915 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E6155FD1959548900EC7915 /* RCLightingExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E6156301959548900EC7915 /* Build configuration list for PBXNativeTarget "RCLightingExample" */;
+			buildPhases = (
+				52991FDC465E41248DCDDFF3 /* Check Pods Manifest.lock */,
+				6E6155FA1959548900EC7915 /* Sources */,
+				6E6155FB1959548900EC7915 /* Frameworks */,
+				6E6155FC1959548900EC7915 /* Resources */,
+				81B6939679204F028F8B71BF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCLightingExample;
+			productName = RCLightingEffectExample;
+			productReference = 6E6155FE1959548900EC7915 /* RCLightingExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E61561E1959548900EC7915 /* RCLightingExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E6156331959548900EC7915 /* Build configuration list for PBXNativeTarget "RCLightingExampleTests" */;
+			buildPhases = (
+				6E61561B1959548900EC7915 /* Sources */,
+				6E61561C1959548900EC7915 /* Frameworks */,
+				6E61561D1959548900EC7915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E6156251959548900EC7915 /* PBXTargetDependency */,
+			);
+			name = RCLightingExampleTests;
+			productName = RCLightingEffectExampleTests;
+			productReference = 6E61561F1959548900EC7915 /* RCLightingExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E6155F61959548900EC7915 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = RidgeCorn;
+				TargetAttributes = {
+					6E61561E1959548900EC7915 = {
+						TestTargetID = 6E6155FD1959548900EC7915;
+					};
+				};
+			};
+			buildConfigurationList = 6E6155F91959548900EC7915 /* Build configuration list for PBXProject "RCLightingExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E6155F51959548900EC7915;
+			productRefGroup = 6E6155FF1959548900EC7915 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E6155FD1959548900EC7915 /* RCLightingExample */,
+				6E61561E1959548900EC7915 /* RCLightingExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E6155FC1959548900EC7915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E61561A1959548900EC7915 /* Images.xcassets in Resources */,
+				6E61560C1959548900EC7915 /* InfoPlist.strings in Resources */,
+				6E5D0917195AA8D400A8BF70 /* avatar@2x.png in Resources */,
+				6E6156151959548900EC7915 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E61561D1959548900EC7915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E61562B1959548900EC7915 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52991FDC465E41248DCDDFF3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81B6939679204F028F8B71BF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E6155FA1959548900EC7915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E61560E1959548900EC7915 /* main.m in Sources */,
+				6E6156121959548900EC7915 /* RCAppDelegate.m in Sources */,
+				6E6156181959548900EC7915 /* RCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E61561B1959548900EC7915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E61562D1959548900EC7915 /* RCLightingEffectExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E6156251959548900EC7915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E6155FD1959548900EC7915 /* RCLightingExample */;
+			targetProxy = 6E6156241959548900EC7915 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E61560A1959548900EC7915 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E61560B1959548900EC7915 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6E6156131959548900EC7915 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E6156141959548900EC7915 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E6156291959548900EC7915 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E61562A1959548900EC7915 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E61562E1959548900EC7915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E61562F1959548900EC7915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E6156311959548900EC7915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1666A72B3BB44F0ABF691100 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RCLightingExample/RCLightingExample-Prefix.pch";
+				INFOPLIST_FILE = "RCLightingExample/RCLightingExample-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = RCLightingExample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6E6156321959548900EC7915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1666A72B3BB44F0ABF691100 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RCLightingExample/RCLightingExample-Prefix.pch";
+				INFOPLIST_FILE = "RCLightingExample/RCLightingExample-Info.plist";
+				PRODUCT_NAME = RCLightingExample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6E6156341959548900EC7915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RCLightingExample.app/RCLightingExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RCLightingExample/RCLightingExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RCLightingExampleTests/RCLightingExampleTests-Info.plist";
+				PRODUCT_NAME = RCLightingExampleTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6E6156351959548900EC7915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RCLightingExample.app/RCLightingExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RCLightingExample/RCLightingExample-Prefix.pch";
+				INFOPLIST_FILE = "RCLightingExampleTests/RCLightingExampleTests-Info.plist";
+				PRODUCT_NAME = RCLightingExampleTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E6155F91959548900EC7915 /* Build configuration list for PBXProject "RCLightingExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E61562E1959548900EC7915 /* Debug */,
+				6E61562F1959548900EC7915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E6156301959548900EC7915 /* Build configuration list for PBXNativeTarget "RCLightingExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6156311959548900EC7915 /* Debug */,
+				6E6156321959548900EC7915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E6156331959548900EC7915 /* Build configuration list for PBXNativeTarget "RCLightingExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6156341959548900EC7915 /* Debug */,
+				6E6156351959548900EC7915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E6155F61959548900EC7915 /* Project object */;
+}
