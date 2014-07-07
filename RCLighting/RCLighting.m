@@ -250,7 +250,9 @@ static NSString *const kColorAnimationTo = @"ToColor";
     
     [self pop_addAnimation:animation forKey:animationKey];
    
+#ifdef DEBUG
     [animation.tracer start];
+#endif
     
     [animation setCompletionBlock:^(POPAnimation *anim, BOOL finished) {
         if ([animationKey isEqualToString:kPOPLayerShadowColor] && !_lightingTimer && _lighting) { // For resume lighting timer after paused.
@@ -268,6 +270,7 @@ static NSString *const kColorAnimationTo = @"ToColor";
     for (NSString *animationKey in [self pop_animationKeys]) {
         POPBasicAnimation *animation = [self pop_animationForKey:animationKey];
         
+#ifdef DEBUG
         if ( !pause) { // Resume animation value.
             POPAnimationValueEvent *event = [[animation.tracer eventsWithType:kPOPAnimationEventPropertyWrite] lastObject];
             
@@ -275,6 +278,7 @@ static NSString *const kColorAnimationTo = @"ToColor";
             
             animation.duration = newDuration(animation.duration, event.time);
         }
+#endif
         
         [animation setPaused:pause];
     }

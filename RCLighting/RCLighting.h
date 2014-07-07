@@ -43,10 +43,10 @@ typedef NS_ENUM(NSUInteger, RCLightingState) {
 
 @interface RCLightingLayer : CALayer
 
-@property (nonatomic) NSTimeInterval perLightingDuration; // Default value is 1.f.
+@property (nonatomic) NSTimeInterval perLightingDuration; // Default is '1.f'.
 @property (nonatomic, readonly) NSArray *colors;
 @property (nonatomic, readonly) NSUInteger currentLightingColorIndex;
-@property (nonatomic) CGFloat kBackgroundColorAlpha; // Default value is .5f.
+@property (nonatomic) CGFloat kBackgroundColorAlpha; // Default is '.5f'.
 
 
 - (instancetype)initWithColors:(NSArray *)colors;
@@ -55,7 +55,7 @@ typedef NS_ENUM(NSUInteger, RCLightingState) {
 - (instancetype)initWithView:(UIView *)view; // Default colors would be [UIColor whiteColor] and view.backgroundColor.
 
 
-- (void)showLighting:(BOOL)restart; // Set YES to lighting colors at index 0, NO for index at currentLightingColorIndex.
+- (void)showLighting:(BOOL)restart; // Set 'YES' to lighting colors at index 0, 'NO' for index at currentLightingColorIndex.
 - (void)removeLighting;
 
 - (void)pauseLighting;
