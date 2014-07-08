@@ -45,10 +45,12 @@
 #define RCDefaultLightingColor [UIColor whiteColor]
 
 
+#ifdef DEBUG
 static inline NSTimeInterval newDuration(NSTimeInterval duration, NSTimeInterval time) {
     CGFloat leftTime = duration - time;
     return ((leftTime > RCLightingMiniDuration) ? ((leftTime < duration) ? leftTime : (duration - RCLightingMiniDuration)) : RCLightingMiniDuration);
 }
+#endif
 
 static NSArray * verifiedColors(NSArray *colors, UIColor *replaceColor) {
     NSMutableArray *verifiedColors = [@[] mutableCopy];
