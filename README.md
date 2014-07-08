@@ -72,14 +72,14 @@ pod update
 
 Just one line code to show `Lighting`, it's very easy to use.
 ```objective-c
-	[self.view showLighting]; // That's it!
+[self.view showLighting]; // That's it!
 ```
 
 Default lighting color is view's background color.
 
 Remove `Lighting` is as simple as above,
 ```objective-c
-	[self.view removeLighting];
+[self.view removeLighting];
 ```
 
 
@@ -87,15 +87,15 @@ Remove `Lighting` is as simple as above,
 
 To pause `Lighting` in view,
 ```objective-c
-	[self.view pauseLighting];
+[self.view pauseLighting];
 ```
 
 To resume `Lighting` in view,
 ```objective-c
-	[self.view resumeLighting];
+[self.view resumeLighting];
 ```
 
-**`[animation setPaused:NO]` is not work on `POPBasicAnimation` if stop `tracer` debug. 
+**`[animation setPaused:NO]` is not working on `POPBasicAnimation` if stop using `tracer` debug. 
 I'm work very hard on it.
 Let me know if you see something.**
 
@@ -104,7 +104,7 @@ Let me know if you see something.**
 
 To get current `Lighting` state in view, 
 ```objective-c
-	[self.view lightingState];
+[self.view lightingState];
 ```
 
 Return type is `RCLightingState`.
@@ -125,7 +125,7 @@ There are two methods supports custom colors
 
 And is easy to use,
 ```objective-c
-	[self.view showLightingWithColors:@[[UIColor redColor]]];
+[self.view showLightingWithColors:@[[UIColor redColor]]];
 ```
 
 #### RCLightingLayer
@@ -135,10 +135,10 @@ If you want to know more about `Lighting`, the class `RCLightingLayer` is what y
 Sample code below shows how to use `RCLightingLayer`,
 
 ```objective-c
-	RCLightingLayer *lightingLayer = [[RCLightingLayer alloc] initWithColors:@[[UIColor redColor]]]; 
-	lightingLayer.perLightingDuration = 2.f;
-	lightingLayer.kBackgroundColorAlpha = 1.f;
-    [self.view showWithLighting:lightingLayer]; 
+RCLightingLayer *lightingLayer = [[RCLightingLayer alloc] initWithColors:@[[UIColor redColor]]]; 
+lightingLayer.perLightingDuration = 2.f;
+lightingLayer.kBackgroundColorAlpha = 1.f;
+[self.view showWithLighting:lightingLayer]; 
 ```
 
 
