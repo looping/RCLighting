@@ -74,8 +74,11 @@ typedef NS_ENUM(NSUInteger, RCLightingState) {
 - (RCLightingState)lightingState;
 
 - (void)showWithLighting:(RCLightingLayer *)lighting;
+- (void)showLightingWithDuration:(NSTimeInterval)duration;
 - (void)showLightingWithColors:(NSArray *)colors;
+- (void)showLightingWithColors:(NSArray *)colors duration:(NSTimeInterval)duration;
 - (void)showLightingWithColor:(UIColor *)color;
+- (void)showLightingWithColor:(UIColor *)color duration:(NSTimeInterval)duration;
 - (void)showLighting;
 - (void)removeLighting;
 

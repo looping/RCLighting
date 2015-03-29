@@ -21,7 +21,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [_effectView showLightingWithColors:@[[UIColor brownColor], [UIColor greenColor], [UIColor cyanColor], [UIColor orangeColor], [UIColor purpleColor], [UIColor magentaColor], [UIColor redColor], [UIColor yellowColor], [UIColor blueColor]]];
+    [_effectView showLightingWithColors:@[[UIColor brownColor], [UIColor greenColor], [UIColor cyanColor], [UIColor orangeColor], [UIColor purpleColor], [UIColor magentaColor], [UIColor redColor], [UIColor yellowColor], [UIColor blueColor]] duration:1.6];
     
     [self updateState];
 }
